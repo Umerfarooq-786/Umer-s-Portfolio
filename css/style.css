@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #222;
+  padding: 15px;
+  z-index: 1000;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.navbar ul li {
+  margin: 0 15px;
+}
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.navbar ul li a:hover {
+  color: #00ffcc;
+}
+
+/* Hero */
+.hero {
+  height: 100vh;
+  background: url("../images/hero-bg.jpg") no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero-content {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 10px;
+}
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.highlight {
+  color: #00ffcc;
+}
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #00ffcc;
+  color: #000;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn:hover {
+  background: #fff;
+}
+
+/* Sections */
+section {
+  padding: 80px 20px;
+  text-align: center;
+}
+h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #00ffcc;
+}
+
+/* Education */
+.edu-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.edu-card {
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  transition: transform 0.3s;
+}
+.edu-card:hover {
+  transform: scale(1.05);
+}
+
+/* Skills */
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+.skills-list li {
+  margin: 10px 0;
+  padding: 10px;
+  background: #222;
+  border-radius: 5px;
+}
+
+/* Projects */
+.project-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.project-card {
+  background: #222;
+  padding: 15px;
+  border-radius: 10px;
+  width: 250px;
+  transition: transform 0.3s;
+}
+.project-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+/* Contact */
+.social-links a {
+  margin: 0 10px;
+  color: #00ffcc;
+  text-decoration: none;
+}
+.social-links a:hover {
+  color: #fff;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}

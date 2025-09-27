@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Umer Farooq | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Typed.js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="hero" class="hero">
+    <div class="hero-content">
+      <img src="images/profile.jpg" alt="Umer Farooq" class="profile-pic">
+      <h1>Hi, I'm <span class="highlight">Umer Farooq</span></h1>
+      <h2><span id="typed"></span></h2>
+      <a href="#about" class="btn">Explore More</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>
+     Hello — I’m <strong>Umer Farooq</strong>. I have a strong foundation in <strong>Digital Marketing</strong> and
+      <strong>Information Technology</strong>, and I am currently building my expertise as a dedicated
+      <strong>Cybersecurity learner</strong>. I focus on practical, hands-on learning — studying network security,
+      web application hardening, vulnerability assessment tools, and secure coding practices. 
+    </p>
+    <p>
+      I combine marketing insight with technical knowledge to create digital solutions that are not only effective
+      but also secure. My experience includes developing websites, running data-driven marketing campaigns, and
+      implementing basic security measures to protect online assets. I enjoy solving problems, learning new tools,
+      and applying best practices to reduce risk and improve system resilience.
+    </p>
+    <p>
+      Currently I am completing coursework and labs in cybersecurity (covering topics such as network scanning,
+      OWASP risks, and incident response) and building small projects to practice threat detection and prevention.
+      My goal is to become a well-rounded professional who can bridge the gap between marketing, IT, and security,
+      helping organizations grow online while keeping their systems and users safe.
+    </p>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" data-aos="fade-up">
+    <h2>Education</h2>
+    <div class="edu-grid">
+      <div class="edu-card">
+        <h3>School</h3>
+        <p>Ismail Academy</p>
+      </div>
+      <div class="edu-card">
+        <h3>College</h3>
+        <p>Superior Collage,Shah Faisal</p>
+      </div>
+      <div class="edu-card">
+        <h3>University</h3>
+        <p>went to universty</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" data-aos="fade-up">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>Digital Marketing</li>
+      <li>Cybersecurity (Learning)</li>
+      <li>Web Development</li>
+      <li>IT Fundamentals</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" data-aos="fade-up">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="images/project1.jpg" alt="Portfolio Website">
+        <p>Portfolio Website</p>
+      </div>
+      <div class="project-card">
+        <img src="images/project2.jpg" alt="Clothing Brand Website">
+        <p>Clothing Brand Website</p>
+      </div>
+      <div class="project-card">
+        <img src="images/project3.jpg" alt="Shopify Store">
+        <p>Shopify Store</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" data-aos="fade-up">
+    <h2>Contact Me on : 03122328856</h2>
+    <p>Email: <a href="shakil2232591@gmail.com">shakil2232591@gmail.com</a></p>
+    <p>Address: Kallo Chowk , Korangi 4 , Karachi</p>
+    <div class="social-links">
+      <a href="https://www.facebook.com/</a>
+      <a href="https://www.instagram.com/</a>
+      <a href="https://www.linkedin.com/feed/</a>
+      <a href="https://github.com/</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Umer Farooq | All Rights Reserved</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+    new Typed('#typed', {
+      strings: ["Digital Marketer", "IT Enthusiast", "Cybersecurity Learner"],
+      typeSpeed: 70,
+      backSpeed: 40,
+      loop: true
+    });
+  </script>
+</body>
+</html>
