@@ -1,142 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Umer Farooq | Portfolio</title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umer's Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+/>
 
-  <!-- AOS Animation -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-  <!-- Typed.js -->
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </head>
 <body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">Umer's Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#cv">CV</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <i class="fas fa-moon" id="themeIcon"></i>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
 
-  <!-- Navbar -->
-  <nav class="navbar">
-    <ul>
-      <li><a href="#hero">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-
-  <!-- Hero Section -->
-  <header id="hero" class="hero">
-    <div class="hero-content">
-      <img src="images/profile.jpg" alt="Umer Farooq" class="profile-pic">
-      <h1>Hi, I'm <span class="highlight">Umer Farooq</span></h1>
-      <h2><span id="typed"></span></h2>
-      <a href="#about" class="btn">Explore More</a>
+    <!-- Hero Section -->
+<section id="home" class="hero">
+  <div class="hero-container">
+    <div class="hero-text">
+      <h1>Hi, I'm <span class="highlight">Umer</span></h1>
+      <p class="hero-subtitle">Digital Marketer & IT Officer</p>
+      <p class="hero-desc">
+        Passionate about Marketing Strategies that make an impact.<br>
+        Dedicated IT Officer ensuring secure, efficient, and reliable technology operations.
+      </p>
+      <button class="cta-btn" onclick="scrollToSection('about')">Learn More</button>
     </div>
-  </header>
 
-  <!-- About Section -->
-  <section id="about" data-aos="fade-up">
-    <h2>About Me</h2>
-    <p>
-     Hello — I’m <strong>Umer Farooq</strong>. I have a strong foundation in <strong>Digital Marketing</strong> and
-      <strong>Information Technology</strong>, and I am currently building my expertise as a dedicated
-      <strong>Cybersecurity learner</strong>. I focus on practical, hands-on learning — studying network security,
-      web application hardening, vulnerability assessment tools, and secure coding practices. 
-    </p>
-    <p>
-      I combine marketing insight with technical knowledge to create digital solutions that are not only effective
-      but also secure. My experience includes developing websites, running data-driven marketing campaigns, and
-      implementing basic security measures to protect online assets. I enjoy solving problems, learning new tools,
-      and applying best practices to reduce risk and improve system resilience.
-    </p>
-    <p>
-      Currently I am completing coursework and labs in cybersecurity (covering topics such as network scanning,
-      OWASP risks, and incident response) and building small projects to practice threat detection and prevention.
-      My goal is to become a well-rounded professional who can bridge the gap between marketing, IT, and security,
-      helping organizations grow online while keeping their systems and users safe.
-    </p>
-  </section>
+    <div class="hero-visual">
+      <div class="floating-icons">
+        <i class="fas fa-laptop-code icon"></i>
+        <i class="fas fa-chart-line icon"></i>
+        <i class="fas fa-network-wired icon"></i>
+        <i class="fas fa-bullhorn icon"></i>
+        <i class="fas fa-database icon"></i>
+      </div>
+      <div class="hero-glow"></div>
+    </div>
+  </div>
+</section>
 
-  <!-- Education Section -->
-  <section id="education" data-aos="fade-up">
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a self-taught Digital Markater with 1+ years of experience in building responsive Startups and Ecommerce Store. I love turning ideas into reality using modern technologies like Facebook, Instagram, Tiktok, LinkdIn, etc.</p>
+                    <p>Beyond marketing, I’m passionate about uncovering fresh trends and discovering what truly drives audience engagement.</p>
+                    </p>&</p>
+                    <p>I’m an IT Officer with hands-on experience in system administration, network troubleshooting, and data security — focused on ensuring seamless and efficient IT operations.<p>
+                </div>
+                <div class="about-image">
+                    <img src="images/profile.jpg" alt="Umer's Profile Picture">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <p>
+
+    <section id="education" class="education">
+  <div class="container">
     <h2>Education</h2>
-    <div class="edu-grid">
-      <div class="edu-card">
-        <h3>School</h3>
-        <p>Ismail Academy</p>
+<section id="education" class="education">
+    <div class="timeline">
+      
+      <div class="timeline-item">
+        <div class="timeline-icon"><i class="fas fa-university"></i></div>
+        <div class="timeline-content">
+          <h3>University</h3>
+          <h4>BS in IT</h4>
+          <p>Pursuing Bachelor's studies related to Information Technology</p>
+        </div>
       </div>
-      <div class="edu-card">
-        <h3>College</h3>
-        <p>Superior Collage,Shah Faisal</p>
+
+      <div class="timeline-item">
+        <div class="timeline-icon"><i class="fas fa-school"></i></div>
+        <div class="timeline-content">
+          <h3>College</h3>
+          <h4>Completed Intermediate studies with emphasis on Computer Science</h4>
+          <p>Government Superior Science and Commerce College, Shah Faisal Town, Karachi</p>
+        </div>
       </div>
-      <div class="edu-card">
-        <h3>University</h3>
-        <p>went to universty</p>
+
+      <div class="timeline-item">
+        <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+        <div class="timeline-content">
+          <h3>School</h3>
+          <h4>Completed Matriculation with focus on Computer Science.</h4>
+          <p>Ismail Academy, Korangi</p>
+        </div>
       </div>
+
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Skills Section -->
-  <section id="skills" data-aos="fade-up">
-    <h2>Skills</h2>
-    <ul class="skills-list">
-      <li>Digital Marketing</li>
-      <li>Cybersecurity (Learning)</li>
-      <li>Web Development</li>
-      <li>IT Fundamentals</li>
-    </ul>
-  </section>
 
-  <!-- Projects Section -->
-  <section id="projects" data-aos="fade-up">
-    <h2>Projects</h2>
-    <div class="project-grid">
-      <div class="project-card">
-        <img src="images/project1.jpg" alt="Portfolio Website">
-        <p>Portfolio Website</p>
-      </div>
-      <div class="project-card">
-        <img src="images/project2.jpg" alt="Clothing Brand Website">
-        <p>Clothing Brand Website</p>
-      </div>
-      <div class="project-card">
-        <img src="images/project3.jpg" alt="Shopify Store">
-        <p>Shopify Store</p>
-      </div>
+    <!-- Skills Section -->
+<section id="skills" class="skills">
+    <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            
+            <!-- IT Skills -->
+            <div class="skill-item">
+                <i class="fas fa-network-wired"></i>
+                <h3>Networking</h3>
+                <p>Strong understanding of LAN/WAN, routers, switches, and network security.</p>
+            </div>
+            <div class="skill-item">
+                <i class="fas fa-server"></i>
+                <h3>System Administration</h3>
+                <p>Experience in managing Windows and Linux servers, backups, and IT infrastructure.</p>
+            </div>
+            <div class="skill-item">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Cybersecurity</h3>
+                <p>Knowledge of firewalls, endpoint protection, and security best practices.</p>
+            </div>
+
+            <!-- Marketing Skills -->
+            <div class="skill-item">
+                <i class="fas fa-bullhorn"></i>
+                <h3>Digital Marketing</h3>
+                <p>Proficient in SEO, SEM, social media campaigns, and online branding.</p>
+            </div>
+            <div class="skill-item">
+                <i class="fas fa-chart-line"></i>
+                <h3>Data Analytics</h3>
+                <p>Using Google Analytics and reporting tools to analyze campaign performance.</p>
+            </div>
+            <div class="skill-item">
+                <i class="fas fa-pen-nib"></i>
+                <h3>Content Strategy</h3>
+                <p>Developing creative content for social media and digital campaigns.</p>
+            </div>
+
+            <!-- Technical Skills -->
+            <div class="skill-item">
+                <i class="fas fa-code"></i>
+                <h3>Web Technologies</h3>
+                <p>Basic front-end development using HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="skill-item">
+                <i class="fas fa-cloud"></i>
+                <h3>Cloud & IT Support</h3>
+                <p>Experience with cloud tools, troubleshooting, and user support systems.</p>
+            </div>
+        </div>
     </div>
-  </section>
+</section>
 
-  <!-- Contact Section -->
-  <section id="contact" data-aos="fade-up">
-    <h2>Contact Me on : 03122328856</h2>
-    <p>Email: <a href="shakil2232591@gmail.com">shakil2232591@gmail.com</a></p>
-    <p>Address: Kallo Chowk , Korangi 4 , Karachi</p>
-    <div class="social-links">
-      <a href="https://www.facebook.com/</a>
-      <a href="https://www.instagram.com/</a>
-      <a href="https://www.linkedin.com/feed/</a>
-      <a href="https://github.com/</a>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" onclick="openModal('project1')">
+                    <img src="images/project1.jpg" alt="E-Commerce Project">
+                    <h3>E-Commerce Site</h3>
+                    <p>
+                    <p>A customized Shopify eCommerce store designed for seamless product management and secure online shopping.</p>
+                </div>
+                <div class="project-card" onclick="openModal('project2')">
+                    <img src="images/project2.jpg" alt="Weather App Project">
+                    <h3>Weather App</h3>
+                    <p>Real-time weather dashboard using JavaScript and APIs.</p>
+                </div>
+                <div class="project-card" onclick="openModal('project3')">
+                    <img src="images/project3.jpg" alt="Portfolio Project">
+                    <h3>Portfolio Site</h3>
+                    <p>This very site! Responsive design with animations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="social-links">
+               <a href="https://github.com/Umerfarooq-786" target="_blank">
+                  <i class="fab fa-github"></i>
+               </a>
+               <a href="https://www.linkedin.com/in/muhammad-umer-farooq-360691340" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+               </a>
+               <a href="https://x.com/Shakeel87034561" target="_blank">
+                  <i class="fab fa-x-twitter"></i>
+               </a>
+</div>
+
+<!-- CV Section -->
+<section id="cv" class="cv">
+    <div class="container">
+        <h2>My CV / Resume</h2>
+        <p>You can view or download my latest CV to learn more about my education, skills, and experience.</p>
+        <div class="cv-buttons">
+            <a href="assets/Umer-CV.pdf" class="btn" target="_blank">View CV</a>
+            <a href="assets/Umer-CV.pdf" class="btn download" download>Download CV</a>
+        </div>
     </div>
-  </section>
+</section>
 
-  <!-- Footer -->
-  <footer>
-    <p>© 2025 Umer Farooq | All Rights Reserved</p>
-  </footer>
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Umer's Portfolio. All rights reserved ❤.</p>
+    </footer>
 
-  <!-- Scripts -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modalBody"></div>
+        </div>
+    </div>
 
-    new Typed('#typed', {
-      strings: ["Digital Marketer", "IT Enthusiast", "Cybersecurity Learner"],
-      typeSpeed: 70,
-      backSpeed: 40,
-      loop: true
-    });
-  </script>
+    <script src="script.js"></script>
 </body>
 </html>
